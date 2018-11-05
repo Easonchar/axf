@@ -11,7 +11,8 @@ class Base(models.Model):
 
     class Meta:
         abstract = True
-
+class test(models.Model):
+    name = models.CharField(max_length=10)
 
 # 轮播图
 class Wheel(Base):
@@ -36,13 +37,6 @@ class Shop(Base):
 
 
 
-# 商品主体内容
-# (trackid,name,img,categoryid,brandname,
-# img1,childcid1,productid1,longname1,price1,marketprice1,img2,childcid2,productid2,longname2,price2,marketprice2,img3,childcid3,productid3,longname3,price3,marketprice3)
-
-# values("21782","优选水果","http://img01.bqstatic.com//upload/activity/2017031018205492.jpg@90Q.jpg","103532","爱鲜蜂",
-
-# "http://img01.bqstatic.com/upload/goods/201/701/1916/20170119164159_996462.jpg@200w_200h_90Q","103533","118824","爱鲜蜂·特小凤西瓜1.5-2.5kg/粒","25.80","25.8","http://img01.bqstatic.com/upload/goods/201/611/1617/20161116173544_219028.jpg@200w_200h_90Q","103534","116950","蜂觅·越南直采红心火龙果350-450g/盒","15.3","15.8","http://img01.bqstatic.com/upload/goods/201/701/1916/20170119164119_550363.jpg@200w_200h_90Q","103533","118826","爱鲜蜂·海南千禧果400-450g/盒","9.9","13.8");
 class MainShow(models.Model):
     trackid = models.CharField(max_length=8)
     name = models.CharField(max_length=100)
