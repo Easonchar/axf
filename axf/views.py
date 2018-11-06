@@ -157,8 +157,6 @@ def registe(request):
 
             # 重定向
             return redirect('axf:mine')
-        # except:
-        #     return HttpResponse('注册失败(该用户已被注册)')
 
 
 def checkaccount(request):

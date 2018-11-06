@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68468c3a-ef17-46fe-9055-e7d856925437" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/mine/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mine/css/registe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mine/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mine/js/registe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/uploads/axf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mine/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mine/registe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/axf/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/axf/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/axf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/axf/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/axf/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/axf/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mine/css/mine.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/mine/css/mine.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mine/js/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/mine/js/mine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mine/mine.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mine/mine.html" afterDir="false" />
-    </list>
+    <list default="true" id="68468c3a-ef17-46fe-9055-e7d856925437" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
