@@ -12,6 +12,9 @@ urlpatterns = [
     url(r'^registe/$', views.registe, name='registe'),  # 注册
     url(r'^checkaccount/$',views.checkaccount,name='checkaccount'),
     url(r'^login/$',views.login,name='login'),
-    url(r'^logout/$',views.logout,name='logout')
+    url(r'^logout/$',views.logout,name='logout'),
+    url(r'^cart/$',views.cart,name='cart'),
+    url(r'^addcart/$', views.addcart, name='addcart'),  # 添加购物车
+    url(r'^subcart/$', views.subcart, name='subcart'),  # 购物车减操作
 
 ]
